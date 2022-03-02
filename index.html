@@ -4,9 +4,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Makai's Portfolio</title>
+        <title>Design by Makai</title>
         <meta name="description" content="An online portfolio showcasing Makai Ingalls's work.">
         <link rel="stylesheet" href="main.css">
+        <style>
+           @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@200&family=Roboto:wght@400;900&display=swap');
+        </style>
     </head>
     <body>
         
@@ -16,32 +19,34 @@
                 <tr>
                     <th class="thisPage">Home</th>
                     <th><a href="gallery.html">Gallery</a></th>
-                    <th><a href="#">Projects</a></th>
-                    <th><a href="#">About</a></th>
-                    <th><a href="#">Contact</a></th>
+                    <th><a href="projects.html">Projects</a></th>
+                    <th><a href="about.html">About</a></th>
+                    <th><a href="contact.html">Contact</a></th>
                     
+        
                 </tr>
-            </thead>    
+            </thead>  
+            
         </table>    
-        
-        
-    
+       <!-- <h1 class="homepage-intro" ><span style="color: #313E50;">Design by</span> Makai</h1> -->
 
-        <h1 class="homepage-intro" >Makai Ingalls</h1>
         
-        <h2>Showcase</h2>
         
+        
+        <div class="pageBody">
+            <h2>Showcase</h2>
         <!--
         Showcase for digital art
         -->
         <h3>Digital Artwork</h3>
         
         
-        <div class="digital-link">
+        <div class="galleryLink">
             <a href="gallery.html"><img src="./digital-art/dove.jpg"/></a>
             <div class="overlay">View digital art collection</div>
         </div>
         
+            
         
         <!--
            
@@ -49,14 +54,14 @@
         <p>
             Digital art done through Procreate on iPad. Digital art allows a freedom to mess up that isn't found in traditional styles of art, making it particualarly appealing.
         </p>
-        
+        <hr>
         <!--
             
         -->
         
         <h3>Mixed Media</h3>
         
-         <div class="media-link">
+         <div class="galleryLink">
             <a href="gallery.html"><img src="./mixed-media/bear.png"/></a>
             <div class="overlay">View mixed media collection</div>
         </div>
@@ -65,43 +70,49 @@
             From sketching, watercolor, painting, charcoal, crosshatching, and other forms of mixed media are all available to view.
         </p>
         
-        
+        <hr>
         
         <!--
             Photography
         -->
         <h3>Photography</h3>
-        <p>
-            All photos captured on a Canon DSLR.
-        </p>
         
-        <div class="photo-link">
+        
+        <div class="galleryLink">
             <a href="gallery.html"><img src="./photography/bees.JPG"/></a>
             <div class="overlay">View photography collection</div>
         </div>
+        <p>
+            All photos captured on a Canon DSLR.
+        </p>
+        <hr>
         
-        
-        
-       
         <h3>Cooking</h3>
+        
+        <div class="galleryLink">
+            <a href="#"><img src="cooking/20220211_180605.jpg"/></a>
+            <div class="overlay">Coming soon</div>
+        </div>
+            
         <p>
             One thing I will never get tired of is eating. This inspired my oldest passion: cooking.
         </p>
         
-        <div class="cooking-link">
-            <a href="gallery.html"><img src="cooking/20220211_180605.jpg"/></a>
-            <div class="overlay">View mixed media collection</div>
-        </div>
-        
         <h2>Unpcoming projects</h2>
         
+            <div class="galleryLink">
+                <a href="projects.html"> <img src="20220109_101720.jpg"></a>
+            <div class="overlay">Coming Soon</div>
+            </div>
         
-        
+                 <!--a change-->
+
         <h2>Connect With Me</h2>
         <p>
             display socials here
         </p>
 
+        </div>
         
     </body>
 </html>
