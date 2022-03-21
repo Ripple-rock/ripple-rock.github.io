@@ -115,6 +115,7 @@ div a img {
     max-width: 100%;
     width: 100%;
     border-radius: 4em;
+    margin-bottom: 4em;
 }
 
 .galleryLink img{
@@ -122,6 +123,8 @@ div a img {
     width: 70%;
     height: 70%;
     max-width: 600px;
+    max-height: 600px;
+    object-fit: contain;
 }
 
 .galleryLink:hover .overlay {
@@ -311,7 +314,7 @@ div a img {
 .projOverlay{
     display: inline-block;
     position: absolute;  
-    bottom: 5px;
+    bottom: 2em;
     
     color: #f1f1f1;
     vertical-align: middle;
