@@ -375,3 +375,54 @@ div a img {
   color: white;
   transform: rotateY(180deg);
 }
+
+.sketches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sketches a {
+    flex-basis: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+ }
+.sketches a img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 700px;
+}
+
+.protos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.protos a {
+    flex-basis: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.protos a img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+.proto-vac {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.proto-vac a {
+    flex-basis: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.proto-vac a img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
