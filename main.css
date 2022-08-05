@@ -111,20 +111,18 @@ div a img {
 
 .galleryLink {
     position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    width: 100%;
+    
     border-radius: 4em;
     margin-bottom: 4em;
 }
 
 .galleryLink img{
     object-fit: cover;
-    width: 70%;
-    height: 70%;
+    width: 400px;
+    height: 400px;
     max-width: 600px;
     max-height: 600px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .galleryLink:hover .overlay {
@@ -146,7 +144,8 @@ div a img {
     font-size: 20px;
     padding: 20px;
     text-align: center;
-    right: 0:
+    right: 0;
+    
 }
 
 
@@ -311,20 +310,21 @@ div a img {
   opacity: 1;
 }
 
-.projOverlay{
-    display: inline-block;
-    position: absolute;  
+.projOverlay {
+    display: block;
+    position: relative;
     bottom: 2em;
-    
+    word-break: break-all;
     color: #f1f1f1;
     vertical-align: middle;
-    width: 100%;    
+    width: 95%;
+    height: 100%;
     transition: .5s ease;
-    opacity:0;
+    opacity: 0;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    height: 10%;
+    left: 5px;
 }
 
 
